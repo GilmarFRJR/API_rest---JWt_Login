@@ -1,0 +1,198 @@
+.conteinerHomePage{
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+}
+
+
+.bloco{
+    width: 50%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.bloco1{
+    background-color: rgba(39, 255, 244, 0.671);
+    border-right: black 8px solid;
+}
+.bloco2{
+    background-color: rgb(51, 5, 177);
+    border-left: black 8px solid;
+}
+
+
+.bloco1 div{
+    width: 400px;
+    height: 500px;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.bloco1 div h1{
+    margin-bottom: 40px;
+}
+.bloco1 div p{
+    font-weight: bold;
+}
+
+
+
+
+.bloco2 div{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.botoesLoginCadastro{
+    width: 140px;
+    height: 140px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: black solid 8px;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+
+.botaoLogin{
+    background-color: rgb(2, 204, 110);
+    margin-bottom: 40px;
+}
+
+
+.botaoCadastro{
+    background-color: rgba(146, 92, 197, 0.747);
+    margin-top: 40px;
+}
+
+
+.botaoLogin:hover{
+    background-color: rgb(5, 221, 41);
+    border: rgba(0, 0, 0, 0.623) solid 8px;
+}
+
+
+.botaoCadastro:hover{
+    background-color: rgb(14, 40, 187);
+    border: rgba(0, 0, 0, 0.623) solid 8px;
+}
+
+
+
+.formDiv{
+    width: 400px;
+    height: 500px;
+    background-color: rgba(255, 255, 255, 0.808);
+    border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.formLoginCAdastro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.formLoginCAdastro label{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+
+.formLoginCAdastro input{
+    height: 23px;
+    margin-bottom: 20px;
+    padding: 2px 5px;
+    border-radius: 10px;
+    border: solid black 2px;
+}
+
+
+.senhaVisivel{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+
+.formLoginCAdastro input:nth-child(4), .formLoginCAdastro input:nth-child(6), .formLoginCAdastro input:nth-child(8){
+    padding: 2px 28px 2px 5px;
+}
+#email{
+    padding: 2px 5px;
+}
+
+
+.botoesEnviarVoltar{
+    width: 120px;
+    height: 40px;
+    border: solid black 3px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+.botoesEnviarVoltar:hover{
+    color: white;
+    transition: 0.2s;
+}
+
+
+.botaoEnviar{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    background-color: greenyellow;
+}
+
+.botaoVoltar{
+    background-color: red;
+}
+
+
+.fotoOlho{
+    width: 18px;
+    height: 18px;
+    background-image: url(../../public/img/olho.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    position: absolute;
+    right: 5px;
+    top: 91px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.foto2{
+    top: 157px;
+}
+
+.foto3{
+    top: 223px;
+}
+
+
+form{
+    position: relative;
+}
+
